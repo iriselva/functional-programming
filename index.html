@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <title>API Consuption</title>
+</head>
+<body>
+    <div class="current-books">
+
+        <header>
+             <h1>Best Seller Books</h1>
+        </header>
+
+        <h2>Choose a NY Times best seller book list</h2>
+
+        <div class="find-lists-container">
+            <select id="findList">
+                <option>Select best seller list</option>
+            </select>
+            
+        </div>
+        
+        
+        <div class="book-container">
+        <!-- made in js -->
+        <!-- <div class="book">
+                <div class="book-cover">
+                    <a href="${book.amazon_product_url} title="Find book on Amazon"><img src="${book.book_image}" alt=""></a>
+                </div>
+                <div class="book-info">
+                    <span class="rank">${book.rank}</span>
+                    <h3>${book.title}</h3>
+                    <h4>By ${book.author}</h4>
+                </div>
+            </div> -->
+        </div>
+
+        <div class="random-book">
+            <div>
+                <h2>Need a new read?</h2>
+            <button id="fetchBooks">Get a random book</button>
+            </div>
+            
+            <div id="random-book-container">
+            </div>
+        </div>
+        
+        <footer>
+            <small>This site was made with API from <a href="https://developer.nytimes.com/apis">The New York Times</a> </small>
+        </footer>
+
+    </div>
+
+    <script src='config.js'></script>
+    <script src="script.js"></script>
+</body>
+</html>

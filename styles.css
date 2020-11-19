@@ -1,0 +1,147 @@
+body {
+    font-family: 'Roboto Slab', serif;
+    color: #303030;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin-bottom: 4rem;
+    height: 8rem;
+    width: 100%;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* List selection */
+select {
+    width: auto;
+    padding: 1rem;
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    background-color: goldenrod;
+    border: none;
+    border-radius: 5px;
+    color: #303030;
+    margin: 2rem 0 2rem 0;
+}
+
+select:hover {
+    border: 2px solid #303030;
+}
+
+/* book display */
+.current-books {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.new-book {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    padding: 2rem;
+    width: 90%;
+}
+
+.book-container {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center; 
+    gap: 2rem;
+    margin: auto;
+    padding: 2rem 0 2rem 0;
+}
+
+.book {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.book-cover {
+    align-self: center;
+}
+
+.book-cover img {
+    width: auto;
+    height: 180px;
+    box-shadow: 8px 8px rgb(236, 236, 231);
+}
+
+a {
+    color: #303030;
+    cursor: pointer;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+.book-info {
+    align-self: stretch;
+    padding-left: 2rem;
+}
+
+.rank {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: goldenrod;
+    border-bottom: 1px solid goldenrod;
+}
+
+/* Random book container */
+.random-book {
+    padding: 3rem 0 3rem 0;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 70%;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+.random-book button {
+    width: 200px;
+    height: 3rem;
+    font-size: 1rem;
+    font-family: 'Roboto Slab', serif;
+    background-color: goldenrod;
+    border: none;
+    border-radius: 5px;
+    margin: 2rem 0 2rem 0;
+}
+
+.random-book button:hover {
+    border: 2px solid #303030;
+}
+
+#random-book-container {
+    width: 400px; 
+}
+
+footer {
+    margin-top: 6rem;
+    height: 4rem;
+    width: 100%;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
